@@ -1,0 +1,77 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+h1 {
+  color: brown;
+  font-size: 2rem;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 10%;
+}
+
+.scores {
+  display: flex;
+  margin-left: 5%;
+}
+
+.scores h2 {
+  width: 200px;
+}
+
+.data {
+  display: flex;
+  width: 100%;
+}
+
+.left {
+  width: 45%;
+  margin-left: 5%;
+}
+
+.right {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.button {
+  width: 90px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  height: 35px;
+}
+
+.button:hover {
+  background-color: rgb(247, 187, 115);
+  border-radius: 5px;
+}
+
+.scoresList {
+  border: 2px solid brown;
+  margin-top: 3%;
+  height: 50%;
+  overflow: auto;
+  list-style: none;
+}
+
+.scoresList li {
+  padding: 3px;
+  font-weight: 500;
+}
+
+.scoresList li:nth-child(even) {
+  background-color: white;
+}
+
+.form h2 {
+  margin-bottom: 5%;
+}
+
+input[type=text] {
+  border-color: brown;
+}

@@ -2,7 +2,7 @@
 
 
 
-  <h3><b>Simple ToDo List in Javascript</b></h3>
+  <h3><b>Leaderboard</b></h3>
 
 </div>
 
@@ -30,9 +30,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [ToDo List] <a name="is about adding, updating and removing list of items"></a>
+# 📖 [Leaderboard] <a name="is about adding score by fetching data from API's"></a>
 
-**[Portfolio Project]** is based on HTML, CSS and Javascript.
+**[Leaderboard]** is based on HTML, CSS and Javascript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -57,7 +57,7 @@
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href=#>Local Storage used</a></li>
+    <li><a href=#>API's used</a></li>
   </ul>
 </details>
 
@@ -66,7 +66,7 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **[ToDo List is making list and can update, complete and delete]**
+- **[Leaderboard is adding scoes by fetching data through API]**
 - **[Mobile and Desktop Version]**
 - **[using Javascript]**
 
@@ -76,7 +76,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://dheerajsachdeva.github.io/to-do-list/dist/)
+- [Live Demo Link](Will be available after completing the project)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

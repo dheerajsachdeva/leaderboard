@@ -76,7 +76,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](Will be available after completing the project)
+- [Live Demo Link](https://dheerajsachdeva.github.io/leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +94,7 @@ In order to run this project you need: HTML and CSS
 
 Clone this repository to your desired folder:
 
-git clone git@github.com:dheerajsachdeva/to-do-list.git
+git clone git@github.com:dheerajsachdeva/leaderboard.git
 
 ### Install
 
@@ -145,7 +145,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/dheerajsachdeva/to-do-list]
+Feel free to check the [https://github.com/dheerajsachdeva/leaderboard]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

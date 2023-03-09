@@ -6,7 +6,7 @@ const refresh = document.querySelector('.refresh');
 
 // Creating a new game by sending request
 // eslint-disable-next-line
-async function newGame() {
+const newGame = async () => {
   const options = {
     method: 'POST',
     headers: {
@@ -17,14 +17,14 @@ async function newGame() {
   const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games', options);
   const gameID = await response.json();
   return gameID;
-}
+};
 
 const userName = document.querySelector('#name');
 const scoreDetail = document.querySelector('#score');
 const form = document.querySelector('form');
 
 // To add users to API
-async function createUser(user, score) {
+const createUser = async (user, score) => {
   const options = {
     method: 'POST',
     headers: {
@@ -38,7 +38,7 @@ async function createUser(user, score) {
   const response = await fetch(addScoreURL, options);
   const users = await response.json();
   return users;
-}
+};
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -51,7 +51,7 @@ form.addEventListener('submit', (event) => {
   form.reset();
 });
 
-async function displayUser() {
+const displayUser = async () => {
   // eslint-disable-next-line
   let response = await getUser();
   let innerHTML = '';
@@ -59,15 +59,15 @@ async function displayUser() {
     innerHTML += `<li>${element.user} : ${element.score}</li>`;
   }); const list = document.querySelector('.scoresList');
   list.innerHTML = innerHTML;
-}
+};
 
 // To get users from the API
-async function getUser() {
+const getUser = async () => {
   const response = await fetch(addScoreURL);
   const user = await response.json();
   displayUser();
   return user;
-}
+};
 
 refresh.addEventListener('click', (event) => {
   event.preventDefault();

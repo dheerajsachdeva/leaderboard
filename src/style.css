@@ -11,6 +11,12 @@ h1 {
   margin-top: 5%;
   margin-left: 5%;
   margin-bottom: 10%;
+  width: 200px;
+}
+
+.container h1:hover {
+  transform: rotate(360deg);
+  transition-duration: 2s;
 }
 
 .scores {
@@ -49,6 +55,8 @@ h1 {
 .button:hover {
   background-color: rgb(247, 187, 115);
   border-radius: 5px;
+  transition: ease-out;
+  transition-duration: 1s;
 }
 
 .scoresList {

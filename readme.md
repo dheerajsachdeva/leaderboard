@@ -133,7 +133,7 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Interactive list - Can select list item to complete and Delete all]**
+- [ ] **[Fetching API]**
 - [ ] **[Web Responsiveness]**
 - [ ] **[ES6 modules]**
 
@@ -171,9 +171,9 @@ I would like to thank Microverse and all my coding partners.
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[What is ToDO List?]**
+- **[What is Leaderboard?]**
 
-  - [In this project, we are adding list, update and delete]
+  - [In this project, we are adding list by sending and fetching data from API's]
 
 - **[What programming languages used in this project?]**
 
